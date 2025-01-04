@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PureDrop Services</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+	<header class="header">
+		<div class="top-bar">
+			<div class="center-box">
+				<a href="tel:+91 9880759953"><small>Call : </small>+91 9880759953</a>
+				<a href="mailto:puredropservices@gmail.com"><small>Mail : </small>puredropservices@gmail.com</a>
+			</div>
+		</div>
+		<div class="header-content">
+			<nav class="navbar">
+				<div class="brand-logo">
+					<a href="#"><img src="assets/images/logo.png"></a>
+				</div>
+				<ul class="navbar-menu">
+					<li class="menu-item"><a href="#" class="menu-link active">Home</a></li>
+					<li class="menu-item"><a href="#" class="menu-link">About us</a></li>
+					<li class="dropdown menu-item">
+						<a href="#" class="menu-link">Services <span class="fa fa-angle-down"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Water Purifier Company</a></li>
+							<li><a href="#">Water Purifier Filters</a></li>
+							<li><a href="#">Water Purifier Repair Service</a></li>
+							<li><a href="#">Water Purifier Installation</a></li>
+							<li><a href="#">Water Purifier Maintenance</a></li>
+						</ul>
+					</li>
+					<li class="menu-item"><a href="#" class="menu-link">Products</a></li>
+					<li class="menu-item"><a href="#" class="menu-link">Contact</a></li>
+					<li class="menu-btn" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+				</ul>
+				<div class="button">
+                    <a class="theme_btn" href="#">Get A Quote<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 11L11 1M11 1H3.5M11 1V8.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                    </a>
+                </div>
+			</nav>
+		</div>
+		<!-- Mobile Menu Coding Start -->
+
+		<div class="header-sidebar">
+			<nav class="menu-box">
+				<div class="close-btn">
+					<i class="fi-rr-cross" onclick="hideSidebar()"></i>
+				</div>
+				<div class="search-box">
+                  <input type="search" class="search" placeholder="Search..." />
+                  <button type="submit" class="sch_btn"> <i class="fa fa-search"></i></button>
+
+				</div>
+				<div class="menu-outer">
+					<ul class="navbar_nav">
+
+                <li class="mobile-menu-item">
+                	<a href="https://puredropservices.com/" class="nav_link"><span class="text-link"> Home </span></a>
+                </li>
+                <li class="mobile-menu-item">
+                	<a href="https://puredropservices.com/about-us/" class="nav_link"><span class="text-link"> About Us </span></a>
+                </li>
+                <li class="mobile-menu-item">
+                	<a href="https://puredropservices.com/service-style-2/" class="nav_link"><span class="text-link"> Service <span class="fa fa-angle-down"></span> </span></a>
+                    <ul class="sub_menu" style="top: 67px;">
+	                  <li class="mobile-menu-item">
+	                  	<a href="https://puredropservices.com/service/water-purifier-service/" class="menu_link nav_link"><span class="text-link"> Water Purifier Service </span></a>
+	                  </li>
+	                  <li class="mobile-menu-item">
+	                  	<a href="https://puredropservices.com/service/water-purifier-service/" class="menu_link nav_link"><span class="text-link"> Water Purifier Service </span></a>
+	                  </li>
+	                  <li class="mobile-menu-item">
+	                  	<a href="https://puredropservices.com/service/water-purifier-service/" class="menu_link nav_link"><span class="text-link"> Water Purifier Service </span></a>
+	                  </li>
+	                  <li class="mobile-menu-item">
+	                  	<a href="https://puredropservices.com/service/water-purifier-service/" class="menu_link nav_link"><span class="text-link"> Water Purifier Service </span></a>
+	                  </li>
+	                  <li class="mobile-menu-item">
+	                  	<a href="https://puredropservices.com/service/water-purifier-service/" class="menu_link nav_link"><span class="text-link"> Contact </span></a>
+	                  </li>
+                    </ul>
+                </li>
+                <li class="mobile-menu-item">
+                	<a href="https://puredropservices.com/shop/" class="nav_link"><span class="text-link"> Products </span></a>
+                </li>
+                <li class="mobile-menu-item">
+                	<a href="https://puredropservices.com/contact/" class="nav_link"><span class="text-link"> Contact </span></a>
+                </li>
+                   </ul>
+				</div>
+				<div class="header-mobile-info">
+                <a href="tel:+91 9880759953" class="cnt"><i class="fi-rs-headphones"></i>+91 9880759953</a>
+                <a href="mailto:puredropservices@gmail.com" class="cnt"><i class="fi-rs-envelope"></i>puredropservices@gmail.com</a>
+                <a href="https://puredropservices.com/contact/" class="theme_btn tp_one">Contact</a>
+                <a href="#" class="theme_btn">Service</a>
+                </div>
+			</nav>
+		</div>
+	</header>
+
+	<!-- start main content coding -->
+	<main>
+
+		<!-- start RO service image display coding -->
+
+		<div class="image-slider">
+			<div class="image-display"></div>
+		</div>
+
+		<!-- End RO service image display coding -->
+
+		<!-- start about description coding -->
+
+		<div class="about">
+			<div class="center-container">
+				<div class="about-wrapper">
+					<div class="about-image">
+						<img src="assets/images/9954.png">
+					</div>
+					<div class="about-content">
+						<p>About PureDrop Services</p>
+						<h1>Healthy Water for Healthy Life.</h1>
+						<div class="about-desc">
+							<p>Founded in 2015, PureDrop Services is a Bangalore-based firm offering comprehensive sales, service, repair, installation, uninstallation, and annual maintenance contract (AMC) services for all brands and types of RO and UV water purifiers. Our services are available across Bangalore and its surrounding areas.</p>
+						</div>
+						<div class="about-buttons">
+                      <button><a href="#" class="about_btn">About More<span> <i class=" fi-rr-arrow-small-up"></i></span></a></button>
+                      <div class="about-button-con">
+                           <div class="about-icons"><i class=" fi-rr-headphones"></i></div>
+                           <div class="about-contact-desc">
+                              <h6>Need Help?</h6>
+                              <a href="tel:+91 9880759953">+91 9880759953</a>
+                           </div>
+                      </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- start our services coding -->
+
+		<div class="services">
+			<div class="center-container">
+				<div class="service-container">
+					<p class="service-para-title">PureDrop Services</p>
+					<h2 class="service-title">PureDrop Services</h2>
+					<div class="service-slider">
+						<!-- first slider item -->
+						<div class="slider-item">
+							<div class="item-img">
+								<img src="assets/images/ro-1.jpg">
+							</div>
+							<div class="item-box"> 
+                        <div class="content_inner">
+                           <div class="icon-box"><i class="fa-solid fa-car"></i></div>
+                           <div class="steps">1</div>
+                           <h4 class="title-h4"><a href="#">Water Purifier Service</a></h4>
+                           <p>Ensure regular maintenance of your RO water purifier for pure drinking water…</p> 
+                           <a href="#" class="rd_more">Read More<svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 1L13 6M13 6L8 11M13 6H1" stroke="var(--color-white)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+                        </div>
+                     </div>
+						</div>
+						<!-- second slider item -->
+						<div class="slider-item">
+							<div class="item-img">
+								<img src="assets/images/ro-1.jpg">
+							</div>
+							<div class="item-box"> 
+                        <div class="content_inner">
+                           <div class="icon-box"><i class="fa-solid fa-car"></i></div>
+                           <div class="steps">2</div>
+                           <h4 class="title-h4"><a href="#">Two</a></h4>
+                           <p>Ensure regular maintenance of your RO water purifier for pure drinking water…</p> 
+                           <a href="#" class="rd_more">Read More<svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 1L13 6M13 6L8 11M13 6H1" stroke="var(--color-white)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+                        </div>
+                     </div>
+						</div>
+						<!-- third slider item -->
+						<div class="slider-item">
+							<div class="item-img">
+								<img src="assets/images/ro-1.jpg">
+							</div>
+							<div class="item-box"> 
+                        <div class="content_inner">
+                           <div class="icon-box"><i class="fa-solid fa-car"></i></div>
+                           <div class="steps">3</div>
+                           <h4 class="title-h4"><a href="#">Three</a></h4>
+                           <p>Ensure regular maintenance of your RO water purifier for pure drinking water…</p> 
+                           <a href="#" class="rd_more">Read More<svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 1L13 6M13 6L8 11M13 6H1" stroke="var(--color-white)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+                        </div>
+                     </div>
+						</div>
+						<!-- four slider item -->
+						<div class="slider-item">
+							<div class="item-img">
+								<img src="assets/images/ro-1.jpg">
+							</div>
+							<div class="item-box"> 
+                        <div class="content_inner">
+                           <div class="icon-box"><i class="fa-solid fa-car"></i></div>
+                           <div class="steps">4</div>
+                           <h4 class="title-h4"><a href="#">Four</a></h4>
+                           <p>Ensure regular maintenance of your RO water purifier for pure drinking water…</p> 
+                           <a href="#" class="rd_more">Read More<svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 1L13 6M13 6L8 11M13 6H1" stroke="var(--color-white)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+                        </div>
+                     </div>
+						</div>
+						<!-- five slider item -->
+						<div class="slider-item">
+							<div class="item-img">
+								<img src="assets/images/ro-1.jpg">
+							</div>
+							<div class="item-box"> 
+                        <div class="content_inner">
+                           <div class="icon-box"><i class="fa-solid fa-car"></i></div>
+                           <div class="steps">5</div>
+                           <h4 class="title-h4"><a href="#">Five</a></h4>
+                           <p>Ensure regular maintenance of your RO water purifier for pure drinking water…</p> 
+                           <a href="#" class="rd_more">Read More<svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 1L13 6M13 6L8 11M13 6H1" stroke="var(--color-white)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+                        </div>
+                     </div>
+						</div>
+						<!-- six slider item -->
+						<div class="slider-item">
+							<div class="item-img">
+								<img src="assets/images/ro-1.jpg">
+							</div>
+							<div class="item-box"> 
+                        <div class="content_inner">
+                           <div class="icon-box"><i class="fa-solid fa-car"></i></div>
+                           <div class="steps">6</div>
+                           <h4 class="title-h4"><a href="#">Six</a></h4>
+                           <p>Ensure regular maintenance of your RO water purifier for pure drinking water…</p> 
+                           <a href="#" class="rd_more">Read More<svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 1L13 6M13 6L8 11M13 6H1" stroke="var(--color-white)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+                        </div>
+                     </div>
+						</div>
+						<!-- seven slider item -->
+						<div class="slider-item">
+							<div class="item-img">
+								<img src="assets/images/ro-1.jpg">
+							</div>
+							<div class="item-box"> 
+                        <div class="content_inner">
+                           <div class="icon-box"><i class="fa-solid fa-car"></i></div>
+                           <div class="steps">7</div>
+                           <h4 class="title-h4"><a href="#">Seven</a></h4>
+                           <p>Ensure regular maintenance of your RO water purifier for pure drinking water…</p> 
+                           <a href="#" class="rd_more">Read More<svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 1L13 6M13 6L8 11M13 6H1" stroke="var(--color-white)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+                        </div>
+                     </div>
+						</div>
+					</div>
+
+					<div class="service-buttons">
+						<button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+						<button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+					</div>
+
+					<div class="slider-dots">
+						<div class="dot active"></div>
+						<div class="dot"></div>
+						<div class="dot"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- end our services coding -->
+
+		<!-- start our product coding -->
+		<div class="products">
+			<div class="center-container">
+				<div class="product-container">
+					<p class="product-title">PureDrop Services</p>
+					<h2 class="product-title">Our Products</h2>
+				
+				<div class="product-wrapper">
+					<div class="product-item">
+						<img class="product-img" src="assets/images/kent-water-purifier.png">
+						<h3 class="item-title">Water Purifier</h3>
+						<button class="product-btn">Read More</button>
+					</div>
+					<div class="product-item">
+						<img class="product-img" src="assets/images/aquaguard-water-purifier.png">
+						<h3 class="item-title">Water Purifier</h3>
+						<button class="product-btn">Read More</button>
+					</div>
+					<div class="product-item">
+						<img class="product-img" src="assets/images/philips-water-purifier.png">
+						<h3 class="item-title">Water Purifier</h3>
+						<button class="product-btn">Read More</button>
+					</div>
+					<div class="product-item">
+						<img class="product-img" src="assets/images/luk-water-purifier.jpg">
+						<h3 class="item-title">Water Purifier</h3>
+						<button class="product-btn">Read More</button>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		<!-- end our product coding -->
+	</main>
+	<!-- end main content coding -->
+
+	<!-- footer start coding -->
+
+	<footer>
+		<div class="footer-container">
+			<div class="center-container">
+				<div class="footer-wrapper">
+					<div class="footer-item">
+						<h2 class="footer-title">About Us</h2>
+						<p class="footer-content">We at PureDrop Services , established in 2015, are a Bangalore-based company offering comprehensive sales, servicing, repairs, installations, uninstallations, and annual maintenance contracts (AMC) for all brands and types of RO and UV water purifiers at customers' doorsteps across all locations in Bangalore.</p>
+					</div>
+
+					<div class="footer-item">
+						<h2 class="footer-title">Services</h2>
+						<ul class="footer-menu">
+							<li class="footer-menu-item">
+								<a class="footer-menu-link" href="#"><i class=" fi-rr-arrow-small-right"></i> Water Purifier Service</a>
+							</li>
+							<li class="footer-menu-item">
+								<a class="footer-menu-link" href="#"><i class=" fi-rr-arrow-small-right"></i> Water Purifier Filters</a>
+							</li>
+							<li class="footer-menu-item">
+								<a class="footer-menu-link" href="#"><i class=" fi-rr-arrow-small-right"></i> Water Purifier Repair Service</a>
+							</li>
+							<li class="footer-menu-item">
+								<a class="footer-menu-link" href="#"><i class=" fi-rr-arrow-small-right"></i> Water Purifier Installation</a>
+							</li>
+							<li class="footer-menu-item">
+								<a class="footer-menu-link" href="#"><i class=" fi-rr-arrow-small-right"></i> Water Purifier Maintenance</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="footer-item">
+						<h2 class="footer-title">Contact Us</h2>
+						<address class="footer-address">No 49 2nd Main Road Kathriguppe Main Road Srinivasnagara Near knight Yashas Apartment Bangalore South Banashankari III Stage Bengaluru Karnataka - 560085</address>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- start footer bar coding -->
+
+				<div class="footer-bar">
+					<div class="center-container">
+
+						<div class="footer-bar-wrapper">
+							<div class="footer-bar-item">
+						     <p class="footer-copyright">PureDrop Services © 2024 All Right Reserved</p>
+					      </div>
+					      <div class="footer-bar-item">
+                       <i class=" fi-rr-clock"></i>
+                       <a href="#">Working Hours : Sun-Monday, 8am-9pm</a>
+					      </div>
+						</div>
+
+					
+				   </div>
+			   </div>
+			<!-- end footer bar coding -->
+	</footer>
+
+	<!-- footer end coding -->
+
+	<script type="text/javascript" src="assets/js/script.js"></script>
+
+</body>
+</html>
